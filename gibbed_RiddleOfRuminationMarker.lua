@@ -1,4 +1,4 @@
---[[--
+--[[
 
 Riddle of Rumination Marker
 
@@ -16,7 +16,7 @@ https://www.nexusmods.com/users/85616
 https://twitch.tv/gibbed
 https://twitter.com/gibbed
 
---]]--
+]]--
 
 local proof_lookup =
 {
