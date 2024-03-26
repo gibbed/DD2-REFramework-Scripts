@@ -272,12 +272,14 @@ sdk.hook(
 
     -- Is the quest "A Game of Wits"?
     if this:get_TargetQuestId() ~= 20200 then
+      log.debug("Quest is not A Game of Wits")
       return retval
     end
 
     -- Has the player acquired any seeker token?
     local proof_id = sdk.get_managed_singleton("app.GimmickManager"):get_FirstSeekerProof()
     if proof_id:isEmpty() ~= false then
+      log.debug("Player has not acquired first Seeker Token proof")
       return retval
     end
 
@@ -285,6 +287,7 @@ sdk.hook(
     local proof_key = proof_id:ToString()
     local proof_pos = proof_lookup[proof_key]
     if proof_pos == nil then
+      log.debug("Failed to find position for proof " .. proof_key)
       return retval
     end
 
@@ -300,6 +303,8 @@ sdk.hook(
     -- ...and add it to the map
     local questTargetMarkerList = this:get_QuestTargetMarkerList()
     questTargetMarkerList:Add(marker)
+
+    log.debug("Added marker for proof " .. proof_key)
 
     return retval
   end
