@@ -18,6 +18,12 @@ https://twitter.com/gibbed
 
 ]]--
 
+-- Change this to a higher value if you are getting a warning about too many icons.
+
+local map_icon_new_array_size = 1024
+
+-- POINT OF NO RETURN
+
 local token_lookup =
 {
   ["02a4d67e-7828-48ab-925d-6c2153dddd4b"] = { x =  1511.327  , y =  72.29001  , z = -1454.527   },
@@ -263,11 +269,14 @@ local token_lookup =
 }
 
 local int_type = sdk.find_type_definition("System.Int32")
+local int_type_value_offset = int_type:get_field("m_value"):get_offset_from_base()
 local unique_id_type = sdk.find_type_definition("app.UniqueID")
 local ui_type = sdk.find_type_definition("app.ui040205")
 local map_icon_info_type = sdk.find_type_definition("app.GuiManager.MapIconInfo")
+local map_icon_ref_type = sdk.find_type_definition("app.GUIBase.MapIconRef")
 
 local guid_parse = sdk.find_type_definition("System.Guid"):get_method("Parse")
+local array_resize = sdk.find_type_definition("System.Array"):get_method("Resize")
 
 -- The message for "Seeker's Token" in natives/stm/message/ui/itemname.msg.22
 local name_guid = guid_parse(nil, "e26516a9-39b1-4e5d-a814-34aba7c7e023")
@@ -278,11 +287,7 @@ local want_update = false
 
 local marker_label = "Open the map!"
 local update_marker_count = function(count)
-  if show_acquired == false then
-    marker_label = tostring(count) .. " remaining"
-  else
-    marker_label = tostring(count) .. " shown"
-  end
+  marker_label = tostring(count) .. " shown"
 end
 
 local ui_map = nil
@@ -292,6 +297,9 @@ re.on_draw_ui(function()
   if imgui.tree_node("Seeker's Token Markers") then
     if marker_label ~= nil then
       imgui.text(marker_label)
+    end
+    if show_warning then
+      imgui.text("Reached the icon limit! Markers limited. You can try increasing map_icon_new_array_size in the script file.")
     end
     local changed, new_value = imgui.checkbox("Enabled", markers_enabled)
     if changed then
@@ -310,6 +318,19 @@ re.on_draw_ui(function()
     imgui.tree_pop()
   end
 end)
+
+-- hook constructor so we can resize MapIcon array to be larger
+sdk.hook(
+  ui_type:get_method(".ctor"),
+  function(args)
+    ui_map = sdk.to_managed_object(args[2])
+  end,
+  function(retval)
+    local this = ui_map
+    this.MapIcon = sdk.create_managed_array(map_icon_ref_type, map_icon_new_array_size)
+    return retval
+  end
+)
 
 -- hook onDestroy to reset ui_map since the object is recreated whenever the map is opened
 sdk.hook(
@@ -359,13 +380,23 @@ sdk.hook(
       proof_key = proof_id:get_RowID():ToString()
     end
 
-    -- passed in as ref to addMapIconInfoList
-    local icon_index = int_type:create_instance()
-    icon_index:write_dword(0, 0)
+    local icon_cap = this.MapIcon:get_Length()
+    local icon_count = this.MapIconInfoList:get_Count()
 
+    -- passed in as ref to addMapIconInfoList
+    local icon_index_obj = int_type:create_instance()
+    icon_index_obj:write_dword(int_type_value_offset, icon_count)
+
+    show_warning = false
     local marker_count = 0
     for token_key, token_pos in pairs(token_lookup) do
       repeat
+        local icon_index = icon_index_obj:read_dword(int_type_value_offset)
+        if icon_index >= icon_cap then
+          show_warning = true
+          break
+        end
+
         if show_acquired == false then
           -- If the proof matches the token's unique id, then it's been picked up
           if proof_key ~= nil and proof_key == token_key then
@@ -396,7 +427,7 @@ sdk.hook(
         info.IsDispAllArea = true
 
         -- ...and add it to the map
-        this:addMapIconInfoList(info, 0, icon_index, -1, name_guid)
+        this:addMapIconInfoList(info, 0, icon_index_obj:get_address() + int_type_value_offset, -1, name_guid)
 
         marker_count = marker_count + 1
       until true
