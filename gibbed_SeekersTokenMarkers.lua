@@ -1,4 +1,4 @@
---[[--
+--[[
 
 Seeker's Token Markers
 
@@ -16,7 +16,7 @@ https://www.nexusmods.com/users/85616
 https://twitch.tv/gibbed
 https://twitter.com/gibbed
 
---]]--
+]]--
 
 local token_lookup =
 {
