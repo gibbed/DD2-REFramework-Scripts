@@ -131,8 +131,8 @@
 142,Gm82_010,,?,?,natives/stm/appsystem/gimmick/prefab/gather/gm82_010.pfb.17
 143,Gm82_030,,?,?,natives/stm/appsystem/gimmick/prefab/gather/gm82_030.pfb.17
 144,Gm82_018,,?,?,natives/stm/appsystem/gimmick/prefab/gather/gm82_018.pfb.17
-145,Gm82_011,,?,?,natives/stm/appsystem/gimmick/prefab/gather/gm82_011.pfb.17
-146,Gm82_012,,?,?,natives/stm/appsystem/gimmick/prefab/gather/gm82_012.pfb.17
+145,Gm82_011,,gm82_011,app.Gm82_009,natives/stm/appsystem/gimmick/prefab/gather/gm82_011.pfb.17
+146,Gm82_012,,gm82_012,app.Gm82_009,natives/stm/appsystem/gimmick/prefab/gather/gm82_012.pfb.17
 147,Gm82_013,,?,?,natives/stm/appsystem/gimmick/prefab/gather/gm82_013.pfb.17
 148,Gm82_014,,?,?,natives/stm/appsystem/gimmick/prefab/gather/gm82_014.pfb.17
 149,Gm82_014_01,,?,?,natives/stm/appsystem/gimmick/prefab/gather/gm82_014_01.pfb.17
@@ -140,7 +140,7 @@
 151,Gm82_016,,?,?,natives/stm/appsystem/gimmick/prefab/gather/gm82_016.pfb.17
 152,Gm82_017,,?,?,natives/stm/appsystem/gimmick/prefab/gather/gm82_017.pfb.17
 153,Gm82_020,,?,?,natives/stm/appsystem/gimmick/prefab/gather/gm82_020.pfb.17
-154,Gm82_021,,?,?,natives/stm/appsystem/gimmick/prefab/gather/gm82_021.pfb.17
+154,Gm82_021,,Gm82_021,app.Gm82_009,natives/stm/appsystem/gimmick/prefab/gather/gm82_021.pfb.17
 155,Gm82_022,,?,?,natives/stm/appsystem/gimmick/prefab/gather/gm82_022.pfb.17
 156,Gm82_023,,?,?,natives/stm/appsystem/gimmick/prefab/gather/gm82_023.pfb.17
 157,Gm82_025,,?,?,natives/stm/appsystem/gimmick/prefab/gather/gm82_025.pfb.17
@@ -149,7 +149,7 @@
 160,Gm82_069,,?,?,natives/stm/appsystem/gimmick/prefab/gather/gm82_069.pfb.17
 161,Gm82_080,Golden Trove Beetle,gm82_080,app.Gm82_009,natives/stm/appsystem/gimmick/prefab/gather/gm82_080.pfb.17
 162,Gm82_062,,?,?,natives/stm/appsystem/gimmick/prefab/gather/gm82_062.pfb.17
-163,Gm82_000,,?,?,natives/stm/appsystem/gimmick/prefab/gm82_000.pfb.17
+163,Gm82_000,,gm82_000,app.Gm82_000,natives/stm/appsystem/gimmick/prefab/gm82_000.pfb.17
 164,Gm82_000_01,,?,?,natives/stm/appsystem/gimmick/gm82_000_01/gm82_000_01.pfb.17
 165,Gm82_000_02,,?,?,natives/stm/appsystem/gimmick/gm82_000_01/gm82_000_02.pfb.17
 166,Gm02_003,,?,?,natives/stm/appsystem/gimmick/prefab/gm02_003.pfb.17
@@ -176,7 +176,7 @@
 220,Gm51_381,,?,?,natives/stm/appsystem/gimmick/prefab/camp/gm51_381.pfb.17
 221,Gm51_382,,?,?,natives/stm/appsystem/gimmick/prefab/camp/gm51_382.pfb.17
 222,Gm51_383,,?,?,natives/stm/appsystem/gimmick/prefab/camp/gm51_383.pfb.17
-223,Gm81_038,,?,?,natives/stm/appsystem/gimmick/prefab/environment/gm81_038.pfb.17
+223,Gm81_038,,gm81_038,app.Gm81_038,natives/stm/appsystem/gimmick/prefab/environment/gm81_038.pfb.17
 224,Gm81_040,,?,?,natives/stm/appsystem/gimmick/prefab/environment/gm81_040.pfb.17
 225,Gm81_041,,?,?,natives/stm/appsystem/gimmick/prefab/environment/gm81_041.pfb.17
 226,Gm80_125,,?,?,natives/stm/appsystem/gimmick/prefab/breakable/gm80_125.pfb.17
@@ -619,14 +619,14 @@
 677,Gm51_570_14,,?,?,natives/stm/appsystem/gimmick/prefab/gm51_570_14.pfb.17
 678,Gm51_570_99,,?,?,natives/stm/appsystem/gimmick/prefab/gm51_570_99.pfb.17
 679,Gm80_243,,?,?,natives/stm/appsystem/gimmick/prefab/breakable/gm80_243.pfb.17
-680,Gm82_009_10,,?,?,natives/stm/appsystem/gimmick/prefab/gather/gm82_009_10.pfb.17
+680,Gm82_009_10,,gm82_009_10,app.Gm82_009,natives/stm/appsystem/gimmick/prefab/gather/gm82_009_10.pfb.17
 681,Gm82_009_20,,?,?,natives/stm/appsystem/gimmick/prefab/gather/gm82_009_20.pfb.17
 682,Gm82_016_10,gatherable pile of bones,gm82_016_10,?,natives/stm/appsystem/gimmick/prefab/gather/gm82_016_10.pfb.17
 683,Gm82_016_11,,?,?,natives/stm/appsystem/gimmick/prefab/gather/gm82_016_11.pfb.17
 684,Gm82_016_12,,?,?,natives/stm/appsystem/gimmick/prefab/gather/gm82_016_12.pfb.17
 685,Gm82_016_13,,?,?,natives/stm/appsystem/gimmick/prefab/gather/gm82_016_13.pfb.17
 686,Gm82_016_14,,?,?,natives/stm/appsystem/gimmick/prefab/gather/gm82_016_14.pfb.17
-687,Gm82_017_10,,?,?,natives/stm/appsystem/gimmick/prefab/gather/gm82_017_10.pfb.17
+687,Gm82_017_10,,gm82_017_10,app.Gm82_009,natives/stm/appsystem/gimmick/prefab/gather/gm82_017_10.pfb.17
 688,Gm82_017_11,,?,?,natives/stm/appsystem/gimmick/prefab/gather/gm82_017_11.pfb.17
 689,Gm82_017_12,,?,?,natives/stm/appsystem/gimmick/prefab/gather/gm82_017_12.pfb.17
 690,Gm82_017_13,,?,?,natives/stm/appsystem/gimmick/prefab/gather/gm82_017_13.pfb.17
