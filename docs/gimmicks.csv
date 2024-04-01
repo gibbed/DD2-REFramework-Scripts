@@ -2,14 +2,14 @@
 1,Gm04_013,,?,?,natives/stm/appsystem/gimmick/prefab/gm04_013.pfb.17
 2,Gm81_045,,?,?,natives/stm/appsystem/gimmick/prefab/gm81_045.pfb.17
 3,Gm80_053,,?,?,natives/stm/appsystem/gimmick/prefab/gm80_053.pfb.17
-4,Gm80_009,,?,?,natives/stm/appsystem/gimmick/prefab/gm80_009.pfb.17
-5,Gm80_010,,?,?,natives/stm/appsystem/gimmick/prefab/gm80_010.pfb.17
+4,Gm80_009,,gm80_009,app.Gm80_009,natives/stm/appsystem/gimmick/prefab/gm80_009.pfb.17
+5,Gm80_010,rock block,gm80_010,app.Gm80_009,natives/stm/appsystem/gimmick/prefab/gm80_010.pfb.17
 6,Gm81_083,,?,?,natives/stm/appsystem/gimmick/prefab/gm81_083.pfb.17
 7,Gm81_071,,?,?,natives/stm/appsystem/gimmick/prefab/gm81_071.pfb.17
 8,Gm04_014,,?,?,natives/stm/appsystem/gimmick/prefab/gm04_014.pfb.17
 9,Gm50_000,,?,?,natives/stm/appsystem/gimmick/prefab/gm50_000.pfb.17
-10,Gm80_001,,?,?,natives/stm/appsystem/gimmick/prefab/gm80_001.pfb.17
-11,Gm80_096,,?,?,natives/stm/appsystem/gimmick/prefab/gm80_096.pfb.17
+10,Gm80_001,chest,gm80_001,app.gm80_001,natives/stm/appsystem/gimmick/prefab/gm80_001.pfb.17
+11,Gm80_096,,gm80_096,app.gm80_001,natives/stm/appsystem/gimmick/prefab/gm80_096.pfb.17
 12,Gm80_097,,?,?,natives/stm/appsystem/gimmick/prefab/gm80_097.pfb.17
 13,Gm81_042,,?,?,natives/stm/appsystem/gimmick/prefab/gm81_042.pfb.17
 14,Gm80_002,,?,?,natives/stm/appsystem/gimmick/prefab/gm80_002.pfb.17
@@ -60,8 +60,8 @@
 59,Gm62_100,,?,?,natives/stm/appsystem/gimmick/prefab/breakable/gm62_100.pfb.17
 60,Gm62_101,,?,?,natives/stm/appsystem/gimmick/prefab/breakable/gm62_101.pfb.17
 61,Gm62_104,,?,?,natives/stm/appsystem/gimmick/prefab/breakable/gm62_104.pfb.17
-62,Gm51_117,,?,?,natives/stm/appsystem/gimmick/prefab/breakable/gm51_117.pfb.17
-63,Gm51_119,,?,?,natives/stm/appsystem/gimmick/prefab/breakable/gm51_119.pfb.17
+62,Gm51_117,,gm51_117,app.gm51_117,natives/stm/appsystem/gimmick/prefab/breakable/gm51_117.pfb.17
+63,Gm51_119,,gm51_118,app.gm51_117,natives/stm/appsystem/gimmick/prefab/breakable/gm51_119.pfb.17
 64,Gm51_120,,?,?,natives/stm/appsystem/gimmick/prefab/breakable/gm51_120.pfb.17
 65,Gm51_068,,?,?,natives/stm/appsystem/gimmick/prefab/breakable/gm51_068.pfb.17
 66,Gm51_168,,?,?,natives/stm/appsystem/gimmick/prefab/breakable/gm51_168.pfb.17
@@ -106,8 +106,8 @@
 113,Gm80_150,,?,?,natives/stm/appsystem/gimmick/prefab/gm80_150.pfb.17
 114,Gm80_151_01,,?,?,natives/stm/appsystem/gimmick/prefab/gm80_151_01.pfb.17
 115,Gm80_117,,?,?,natives/stm/appsystem/gimmick/prefab/gm80_117.pfb.17
-116,Gm80_019,,?,?,natives/stm/appsystem/gimmick/prefab/gm80_019.pfb.17
-117,Gm80_033,,?,?,natives/stm/appsystem/gimmick/prefab/gm80_033.pfb.17
+116,Gm80_019,,gm80_019,app.Gm80_019,natives/stm/appsystem/gimmick/prefab/gm80_019.pfb.17
+117,Gm80_033,,gm80_033,app.Gm80_019,natives/stm/appsystem/gimmick/prefab/gm80_033.pfb.17
 118,Gm80_140,,?,?,natives/stm/appsystem/gimmick/prefab/gm80_140.pfb.17
 119,Gm80_003,,?,?,natives/stm/appsystem/gimmick/prefab/gm80_003.pfb.17
 120,Gm80_037,,?,?,natives/stm/appsystem/gimmick/prefab/gm80_037.pfb.17
@@ -122,7 +122,7 @@
 129,Gm80_052,,?,?,natives/stm/appsystem/gimmick/prefab/oxcart/gm80_052.pfb.17
 130,Gm81_011,,?,?,natives/stm/appsystem/gimmick/prefab/environment/gm81_011.pfb.17
 135,Gm82_009,,?,?,natives/stm/appsystem/gimmick/prefab/gather/gm82_009.pfb.17
-136,Gm82_009_01,gatherable plant,gm82_009_01,?,natives/stm/appsystem/gimmick/prefab/gather/gm82_009_01.pfb.17
+136,Gm82_009_01,gatherable plant,gm82_009_01,app.Gm82_009,natives/stm/appsystem/gimmick/prefab/gather/gm82_009_01.pfb.17
 137,Gm82_009_02,,?,?,natives/stm/appsystem/gimmick/prefab/gather/gm82_009_02.pfb.17
 138,Gm82_009_03,,?,?,natives/stm/appsystem/gimmick/prefab/gather/gm82_009_03.pfb.17
 139,Gm82_009_04,,?,?,natives/stm/appsystem/gimmick/prefab/gather/gm82_009_04.pfb.17
@@ -162,7 +162,7 @@
 186,Gm80_083,,?,?,natives/stm/appsystem/gimmick/prefab/gm80_083.pfb.17
 187,Gm80_084,,?,?,natives/stm/appsystem/gimmick/prefab/gm80_084.pfb.17
 188,Gm81_087,,?,?,natives/stm/appsystem/gimmick/prefab/gm81_087.pfb.17
-189,Gm81_004,,?,?,natives/stm/appsystem/gimmick/prefab/gm81_004.pfb.17
+189,Gm81_004,,gm81_004,app.Gm81_004,natives/stm/appsystem/gimmick/prefab/gm81_004.pfb.17
 190,Gm81_005,,?,?,natives/stm/appsystem/gimmick/prefab/gm81_005.pfb.17
 191,Gm81_035,,?,?,natives/stm/appsystem/gimmick/prefab/gm81_035.pfb.17
 192,Gm81_116,,?,?,natives/stm/appsystem/gimmick/prefab/gm81_116.pfb.17
@@ -171,7 +171,7 @@
 195,Gm80_106,,?,?,natives/stm/appsystem/gimmick/prefab/gm80_106.pfb.17
 196,Gm80_107,,?,?,natives/stm/appsystem/gimmick/prefab/gm80_107.pfb.17
 197,Gm80_079,,?,?,natives/stm/appsystem/gimmick/prefab/camp/gm80_079.pfb.17
-198,Gm80_079_00,,?,?,natives/stm/appsystem/gimmick/prefab/camp/gm80_079_00.pfb.17
+198,Gm80_079_00,,gm80_079_00,app.Gm80_079,natives/stm/appsystem/gimmick/prefab/camp/gm80_079_00.pfb.17
 199,Gm80_079_01,,?,?,natives/stm/appsystem/gimmick/prefab/camp/gm80_079_01.pfb.17
 220,Gm51_381,,?,?,natives/stm/appsystem/gimmick/prefab/camp/gm51_381.pfb.17
 221,Gm51_382,,?,?,natives/stm/appsystem/gimmick/prefab/camp/gm51_382.pfb.17
@@ -199,8 +199,8 @@
 244,Gm80_105,,?,?,natives/stm/appsystem/gimmick/prefab/gm80_105.pfb.17
 245,Gm80_148,,?,?,natives/stm/appsystem/gimmick/prefab/gm80_148.pfb.17
 247,Gm80_102,,?,?,natives/stm/appsystem/gimmick/prefab/gm80_102.pfb.17
-248,Gm80_109,tree,gm80_109,?,natives/stm/appsystem/gimmick/prefab/gm80_109.pfb.17
-249,Gm80_110,,?,?,natives/stm/appsystem/gimmick/prefab/gm80_110.pfb.17
+248,Gm80_109,tree,gm80_109,app.Gm80_109,natives/stm/appsystem/gimmick/prefab/gm80_109.pfb.17
+249,Gm80_110,,gm80_110,app.Gm80_110,natives/stm/appsystem/gimmick/prefab/gm80_110.pfb.17
 250,Gm81_059,,?,?,natives/stm/appsystem/gimmick/prefab/environment/gm81_059.pfb.17
 251,Gm81_064,,?,?,natives/stm/appsystem/gimmick/prefab/environment/gm81_064.pfb.17
 252,Gm80_164,,?,?,natives/stm/appsystem/gimmick/prefab/invisibleinteract/gm80_164.pfb.17
@@ -221,7 +221,7 @@
 268,Gm81_092,,?,?,natives/stm/appsystem/gimmick/prefab/gm81_092.pfb.17
 269,GmCamp_00,,?,?,natives/stm/appsystem/gimmick/prefab/camp/gmcamp_00.pfb.17
 270,Gm51_062,,?,?,natives/stm/appsystem/gimmick/prefab/breakable/gm51_062.pfb.17
-271,Gm51_063,,?,?,natives/stm/appsystem/gimmick/prefab/breakable/gm51_063.pfb.17
+271,Gm51_063,,gm51_063,app.Gm51_063,natives/stm/appsystem/gimmick/prefab/breakable/gm51_063.pfb.17
 272,Gm51_218,,?,?,natives/stm/appsystem/gimmick/prefab/breakable/gm51_218.pfb.17
 273,Gm51_079,,?,?,natives/stm/appsystem/gimmick/prefab/breakable/gm51_079.pfb.17
 274,Gm50_001,,?,?,natives/stm/appsystem/gimmick/prefab/breakable/gm50_001.pfb.17
@@ -231,7 +231,7 @@
 278,Gm51_181,,?,?,natives/stm/appsystem/gimmick/prefab/breakable/gm51_181.pfb.17
 279,Gm51_244,,?,?,natives/stm/appsystem/gimmick/prefab/breakable/gm51_244.pfb.17
 280,Gm51_237,,?,?,natives/stm/appsystem/gimmick/prefab/chair/gm51_237.pfb.17
-281,Gm51_076,,?,?,natives/stm/appsystem/gimmick/prefab/gm51_076.pfb.17
+281,Gm51_076,,gm51_076,app.Gm51_065,natives/stm/appsystem/gimmick/prefab/gm51_076.pfb.17
 282,Gm51_077,,?,?,natives/stm/appsystem/gimmick/prefab/gm51_077.pfb.17
 283,Gm51_078,,?,?,natives/stm/appsystem/gimmick/prefab/gm51_078.pfb.17
 284,Gm51_248,,?,?,natives/stm/appsystem/gimmick/prefab/chair/gm51_248.pfb.17
@@ -262,9 +262,9 @@
 310,Gm50_041_01,,?,?,natives/stm/appsystem/gimmick/prefab/interact/gm50_041_01.pfb.17
 313,Gm50_045_00,,?,?,natives/stm/appsystem/gimmick/prefab/interact/gm50_045_00.pfb.17
 315,Gm51_188_00,,?,?,natives/stm/appsystem/gimmick/prefab/interact/gm51_188_00.pfb.17
-316,Gm51_144_Indoor,,?,?,natives/stm/appsystem/gimmick/prefab/breakable/gm51_144_indoor.pfb.17
-317,Gm51_144_Outdoor,,?,?,natives/stm/appsystem/gimmick/prefab/breakable/gm51_144_outdoor.pfb.17
-318,Gm51_284_Indoor,,?,?,natives/stm/appsystem/gimmick/prefab/breakable/gm51_284_indoor.pfb.17
+316,Gm51_144_Indoor,,gm51_144_Indoor,app.Gm51_144,natives/stm/appsystem/gimmick/prefab/breakable/gm51_144_indoor.pfb.17
+317,Gm51_144_Outdoor,,gm51_144_Outdoor,app.Gm51_144,natives/stm/appsystem/gimmick/prefab/breakable/gm51_144_outdoor.pfb.17
+318,Gm51_284_Indoor,,gm51_284_Indoor,app.Gm51_144,natives/stm/appsystem/gimmick/prefab/breakable/gm51_284_indoor.pfb.17
 319,Gm81_115,,?,?,natives/stm/appsystem/gimmick/prefab/gm81_115.pfb.17
 320,Gm51_284_Outdoor,,?,?,natives/stm/appsystem/gimmick/prefab/breakable/gm51_284_outdoor.pfb.17
 321,sm80_042_04,,?,?,natives/stm/appsystem/gimmick/prefab/oxcart/gm80_042_04_01.pfb.17
@@ -282,12 +282,12 @@
 336,Gm81_031,,?,?,natives/stm/appsystem/gimmick/prefab/interact/gm81_031.pfb.17
 337,Gm50_011_01,,?,?,natives/stm/appsystem/gimmick/prefab/interact/gm50_011_01.pfb.17
 338,Gm51_041_00,,?,?,natives/stm/appsystem/gimmick/prefab/interact/gm51_041_00.pfb.17
-339,Gm51_066_Indoor,,?,?,natives/stm/appsystem/gimmick/prefab/breakable/gm51_066_indoor.pfb.17
-340,Gm51_377_Indoor,,?,?,natives/stm/appsystem/gimmick/prefab/breakable/gm51_377_indoor.pfb.17
+339,Gm51_066_Indoor,,gm51_066_Indoor,app.Gm51_144,natives/stm/appsystem/gimmick/prefab/breakable/gm51_066_indoor.pfb.17
+340,Gm51_377_Indoor,,gm51_377_Indoor,app.Gm51_144,natives/stm/appsystem/gimmick/prefab/breakable/gm51_377_indoor.pfb.17
 341,Gm51_066_Outdoor,,?,?,natives/stm/appsystem/gimmick/prefab/breakable/gm51_066_outdoor.pfb.17
-342,Gm51_377_Outdoor,,?,?,natives/stm/appsystem/gimmick/prefab/breakable/gm51_377_outdoor.pfb.17
+342,Gm51_377_Outdoor,,gm51_377_Outdoor,app.Gm51_144,natives/stm/appsystem/gimmick/prefab/breakable/gm51_377_outdoor.pfb.17
 343,Gm51_547,,?,?,natives/stm/appsystem/gimmick/prefab/breakable/gm51_547.pfb.17
-344,Gm50_165_Indoor,,?,?,natives/stm/appsystem/gimmick/prefab/bartest/gm50_165_indoor.pfb.17
+344,Gm50_165_Indoor,,gm50_165_Indoor,app.gm05_049,natives/stm/appsystem/gimmick/prefab/bartest/gm50_165_indoor.pfb.17
 345,Gm50_165_Outdoor,,?,?,natives/stm/appsystem/gimmick/prefab/bartest/gm50_165_outdoor.pfb.17
 346,Gm51_548,,?,?,natives/stm/appsystem/gimmick/prefab/breakable/gm51_548.pfb.17
 347,Gm51_331,,?,?,natives/stm/appsystem/gimmick/prefab/breakable/gm51_331.pfb.17
@@ -407,7 +407,7 @@
 464,Gm81_140,,?,?,natives/stm/appsystem/gimmick/prefab/gm81_140.pfb.17
 465,Gm80_096_01,,?,?,natives/stm/appsystem/gimmick/prefab/gm80_096_01.pfb.17
 466,Gm80_123_02,,?,?,natives/stm/appsystem/gimmick/prefab/door/gm80_123_02.pfb.17
-467,Gm80_131_01,,?,?,natives/stm/appsystem/gimmick/prefab/lives/gm80_131_01.pfb.17
+467,Gm80_131_01,,gm80_131_01,app.Gm80_129,natives/stm/appsystem/gimmick/prefab/lives/gm80_131_01.pfb.17
 468,Gm80_048_02,,?,?,natives/stm/appsystem/gimmick/prefab/gm80_048_02.pfb.17
 469,Gm80_089_01,,?,?,natives/stm/appsystem/gimmick/prefab/gm80_089_01.pfb.17
 470,Gm51_092_01,,?,?,natives/stm/appsystem/gimmick/prefab/interact/gm51_092_01.pfb.17
@@ -421,7 +421,7 @@
 479,Gm80_133_01,,?,?,natives/stm/appsystem/gimmick/prefab/lives/gm80_133_01.pfb.17
 480,Gm80_133_02,,?,?,natives/stm/appsystem/gimmick/prefab/lives/gm80_133_02.pfb.17
 481,Gm80_133_03,,?,?,natives/stm/appsystem/gimmick/prefab/lives/gm80_133_03.pfb.17
-482,Gm80_133_04,,?,?,natives/stm/appsystem/gimmick/prefab/lives/gm80_133_04.pfb.17
+482,Gm80_133_04,,gm80_133_04,app.Gm80_129,natives/stm/appsystem/gimmick/prefab/lives/gm80_133_04.pfb.17
 483,Gm80_134_01,,?,?,natives/stm/appsystem/gimmick/prefab/lives/gm80_134_01.pfb.17
 484,Gm80_134_02,,?,?,natives/stm/appsystem/gimmick/prefab/lives/gm80_134_02.pfb.17
 485,Gm80_134_03,,?,?,natives/stm/appsystem/gimmick/prefab/lives/gm80_134_03.pfb.17
@@ -595,7 +595,7 @@
 653,Gm81_042_01,,?,?,natives/stm/appsystem/gimmick/prefab/gm81_042_01.pfb.17
 654,Gm80_009_01,,?,?,natives/stm/appsystem/gimmick/prefab/gm80_009_01.pfb.17
 655,Gm80_010_01,,?,?,natives/stm/appsystem/gimmick/prefab/gm80_010_01.pfb.17
-656,Gm50_000_10,,?,?,natives/stm/appsystem/gimmick/prefab/gm50_000_10.pfb.17
+656,Gm50_000_10,,gm50_000_10,app.gm50_000,natives/stm/appsystem/gimmick/prefab/gm50_000_10.pfb.17
 657,Gm50_000_11,,?,?,natives/stm/appsystem/gimmick/prefab/gm50_000_11.pfb.17
 658,Gm50_000_13,,?,?,natives/stm/appsystem/gimmick/prefab/gm50_000_13.pfb.17
 659,Gm50_000_14,,?,?,natives/stm/appsystem/gimmick/prefab/gm50_000_14.pfb.17
