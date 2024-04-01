@@ -2,14 +2,14 @@
 1,Gm04_013,,?,?,natives/stm/appsystem/gimmick/prefab/gm04_013.pfb.17
 2,Gm81_045,,?,?,natives/stm/appsystem/gimmick/prefab/gm81_045.pfb.17
 3,Gm80_053,,?,?,natives/stm/appsystem/gimmick/prefab/gm80_053.pfb.17
-4,Gm80_009,,gm80_009,app.Gm80_009,natives/stm/appsystem/gimmick/prefab/gm80_009.pfb.17
-5,Gm80_010,rock block,gm80_010,app.Gm80_009,natives/stm/appsystem/gimmick/prefab/gm80_010.pfb.17
-6,Gm81_083,,?,?,natives/stm/appsystem/gimmick/prefab/gm81_083.pfb.17
+4,Gm80_009,rock,gm80_009,app.Gm80_009,natives/stm/appsystem/gimmick/prefab/gm80_009.pfb.17
+5,Gm80_010,rock (cube),gm80_010,app.Gm80_009,natives/stm/appsystem/gimmick/prefab/gm80_010.pfb.17
+6,Gm81_083,rock (ice cube),gm81_083,app.Gm80_009,natives/stm/appsystem/gimmick/prefab/gm81_083.pfb.17
 7,Gm81_071,,?,?,natives/stm/appsystem/gimmick/prefab/gm81_071.pfb.17
 8,Gm04_014,,?,?,natives/stm/appsystem/gimmick/prefab/gm04_014.pfb.17
 9,Gm50_000,,?,?,natives/stm/appsystem/gimmick/prefab/gm50_000.pfb.17
-10,Gm80_001,chest,gm80_001,app.gm80_001,natives/stm/appsystem/gimmick/prefab/gm80_001.pfb.17
-11,Gm80_096,,gm80_096,app.gm80_001,natives/stm/appsystem/gimmick/prefab/gm80_096.pfb.17
+10,Gm80_001,chest (basic?),gm80_001,app.gm80_001,natives/stm/appsystem/gimmick/prefab/gm80_001.pfb.17
+11,Gm80_096,chest (rich? wakestone?),gm80_096,app.gm80_001,natives/stm/appsystem/gimmick/prefab/gm80_096.pfb.17
 12,Gm80_097,,?,?,natives/stm/appsystem/gimmick/prefab/gm80_097.pfb.17
 13,Gm81_042,,?,?,natives/stm/appsystem/gimmick/prefab/gm81_042.pfb.17
 14,Gm80_002,,?,?,natives/stm/appsystem/gimmick/prefab/gm80_002.pfb.17
@@ -107,7 +107,7 @@
 114,Gm80_151_01,,?,?,natives/stm/appsystem/gimmick/prefab/gm80_151_01.pfb.17
 115,Gm80_117,,?,?,natives/stm/appsystem/gimmick/prefab/gm80_117.pfb.17
 116,Gm80_019,,gm80_019,app.Gm80_019,natives/stm/appsystem/gimmick/prefab/gm80_019.pfb.17
-117,Gm80_033,,gm80_033,app.Gm80_019,natives/stm/appsystem/gimmick/prefab/gm80_033.pfb.17
+117,Gm80_033,large rock,gm80_033,app.Gm80_019,natives/stm/appsystem/gimmick/prefab/gm80_033.pfb.17
 118,Gm80_140,,?,?,natives/stm/appsystem/gimmick/prefab/gm80_140.pfb.17
 119,Gm80_003,,?,?,natives/stm/appsystem/gimmick/prefab/gm80_003.pfb.17
 120,Gm80_037,,?,?,natives/stm/appsystem/gimmick/prefab/gm80_037.pfb.17
@@ -131,8 +131,8 @@
 142,Gm82_010,,?,?,natives/stm/appsystem/gimmick/prefab/gather/gm82_010.pfb.17
 143,Gm82_030,,?,?,natives/stm/appsystem/gimmick/prefab/gather/gm82_030.pfb.17
 144,Gm82_018,,?,?,natives/stm/appsystem/gimmick/prefab/gather/gm82_018.pfb.17
-145,Gm82_011,,gm82_011,app.Gm82_009,natives/stm/appsystem/gimmick/prefab/gather/gm82_011.pfb.17
-146,Gm82_012,,gm82_012,app.Gm82_009,natives/stm/appsystem/gimmick/prefab/gather/gm82_012.pfb.17
+145,Gm82_011,gatherable bush,gm82_011,app.Gm82_009,natives/stm/appsystem/gimmick/prefab/gather/gm82_011.pfb.17
+146,Gm82_012,gatherable bush,gm82_012,app.Gm82_009,natives/stm/appsystem/gimmick/prefab/gather/gm82_012.pfb.17
 147,Gm82_013,,?,?,natives/stm/appsystem/gimmick/prefab/gather/gm82_013.pfb.17
 148,Gm82_014,,?,?,natives/stm/appsystem/gimmick/prefab/gather/gm82_014.pfb.17
 149,Gm82_014_01,,?,?,natives/stm/appsystem/gimmick/prefab/gather/gm82_014_01.pfb.17
@@ -149,8 +149,8 @@
 160,Gm82_069,,?,?,natives/stm/appsystem/gimmick/prefab/gather/gm82_069.pfb.17
 161,Gm82_080,Golden Trove Beetle,gm82_080,app.Gm82_009,natives/stm/appsystem/gimmick/prefab/gather/gm82_080.pfb.17
 162,Gm82_062,,?,?,natives/stm/appsystem/gimmick/prefab/gather/gm82_062.pfb.17
-163,Gm82_000,,gm82_000,app.Gm82_000,natives/stm/appsystem/gimmick/prefab/gm82_000.pfb.17
-164,Gm82_000_01,,?,?,natives/stm/appsystem/gimmick/gm82_000_01/gm82_000_01.pfb.17
+163,Gm82_000,lootable chest of gold,gm82_000,app.Gm82_000,natives/stm/appsystem/gimmick/prefab/gm82_000.pfb.17
+164,Gm82_000_01,lootable bag (Magick Medal?),gm82_000_01,app.Gm82_000_01,natives/stm/appsystem/gimmick/gm82_000_01/gm82_000_01.pfb.17
 165,Gm82_000_02,,?,?,natives/stm/appsystem/gimmick/gm82_000_01/gm82_000_02.pfb.17
 166,Gm02_003,,?,?,natives/stm/appsystem/gimmick/prefab/gm02_003.pfb.17
 167,Gm82_036,Seeker's Token / Finder's Token,Gm82_036,app.Gm82_036,natives/stm/appsystem/gimmick/prefab/gm82_036.pfb.17
@@ -171,7 +171,7 @@
 195,Gm80_106,,?,?,natives/stm/appsystem/gimmick/prefab/gm80_106.pfb.17
 196,Gm80_107,,?,?,natives/stm/appsystem/gimmick/prefab/gm80_107.pfb.17
 197,Gm80_079,,?,?,natives/stm/appsystem/gimmick/prefab/camp/gm80_079.pfb.17
-198,Gm80_079_00,,gm80_079_00,app.Gm80_079,natives/stm/appsystem/gimmick/prefab/camp/gm80_079_00.pfb.17
+198,Gm80_079_00,campfire,gm80_079_00,app.Gm80_079,natives/stm/appsystem/gimmick/prefab/camp/gm80_079_00.pfb.17
 199,Gm80_079_01,,?,?,natives/stm/appsystem/gimmick/prefab/camp/gm80_079_01.pfb.17
 220,Gm51_381,,?,?,natives/stm/appsystem/gimmick/prefab/camp/gm51_381.pfb.17
 221,Gm51_382,,?,?,natives/stm/appsystem/gimmick/prefab/camp/gm51_382.pfb.17
@@ -450,7 +450,7 @@
 508,Gm81_133,,?,?,natives/stm/appsystem/gimmick/prefab/gm81_133.pfb.17
 509,Gm81_134,,?,?,natives/stm/appsystem/gimmick/prefab/gm81_134.pfb.17
 510,Gm81_135,,?,?,natives/stm/appsystem/gimmick/prefab/gm81_135.pfb.17
-511,Gm81_136,,?,?,natives/stm/appsystem/gimmick/prefab/gm81_136.pfb.17
+511,Gm81_136,examinable note,gm81_136,app.gm81_128,natives/stm/appsystem/gimmick/prefab/gm81_136.pfb.17
 512,Gm81_137,,?,?,natives/stm/appsystem/gimmick/prefab/gm81_137.pfb.17
 513,Gm80_167,,?,?,natives/stm/appsystem/gimmick/prefab/invisibleinteract/gm80_167.pfb.17
 514,Gm80_168,,?,?,natives/stm/appsystem/gimmick/prefab/invisibleinteract/gm80_168.pfb.17
