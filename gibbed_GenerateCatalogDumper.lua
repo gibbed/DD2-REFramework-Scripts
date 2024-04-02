@@ -7,6 +7,9 @@ local via_gameobject_t = sdk.find_type_definition("via.GameObject")
 local via_component_t = sdk.find_type_definition("via.Component")
 local via_component_rt = via_component_t:get_runtime_type()
 
+local via_render_mesh_t = sdk.find_type_definition("via.render.Mesh")
+local via_render_mesh_rt = via_render_mesh_t:get_runtime_type()
+
 local generate_manager = sdk.get_managed_singleton("app.GenerateManager")
 
 local enum_get_name = sdk.find_type_definition("System.Enum"):get_method("GetName")
@@ -78,6 +81,25 @@ local get_component_names_for_not_types = function(gameobject, bad_types)
     end
   end
   table.sort(data)
+  return data
+end
+
+local get_mesh_path = function(gameobject)
+  local components = gameobject_find_components(gameobject, via_render_mesh_rt)
+  local data = {}
+  if components ~= nil then
+    local component_length = components:get_Length()
+    for i = 0, component_length - 1, 1 do
+      local component = components[i]
+      local mesh_resource_holder = component:getMesh()
+      if mesh_resource_holder ~= nil then
+        table.insert(data, mesh_resource_holder:get_ResourcePath())
+      end
+    end
+  end
+  if #data == 1 then
+    return data[1]
+  end
   return data
 end
 
@@ -171,6 +193,10 @@ local dump_monster = function(item)
     go_data.components.character = get_component_names_for_type(gameobject, ch200000_rt)
     go_data.components.monster = get_component_names_for_type(gameobject, monster_rt)
     go_data.components.other = get_component_names_for_not_types(gameobject, { ch200000_rt, monster_rt })
+    local mesh_path = get_mesh_path(gameobject)
+    if mesh_path ~= nil then
+      go_data.mesh_path = mesh_path
+    end
     data.gameobject = go_data
   end
   return data
@@ -212,6 +238,10 @@ local dump_gimmick = function(item)
     go_data.components = {}
     go_data.components.gimmick = get_component_names_for_type(gameobject, gimmickbase_rt)
     go_data.components.other = get_component_names_for_not_types(gameobject, { gimmickbase_rt })
+    local mesh_path = get_mesh_path(gameobject)
+    if mesh_path ~= nil then
+      go_data.mesh_path = mesh_path
+    end
     data.gameobject = go_data
   end
   return data
