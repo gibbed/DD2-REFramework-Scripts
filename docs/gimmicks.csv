@@ -29,7 +29,7 @@
 28,Gm80_152,,gm80_152,app.gm50_000,natives/stm/appsystem/gimmick/prefab/gm80_152.pfb.17,natives/stm/environment/props/sm8x/sm80/sm80_152/sm80_152_00.mesh.231011879
 29,Gm80_153,,gm80_153,app.gm50_000,natives/stm/appsystem/gimmick/prefab/gm80_153.pfb.17,natives/stm/environment/props/sm8x/sm80/sm80_153/sm80_153_00.mesh.231011879
 30,Gm80_154,poison jar,gm80_154,app.gm50_000,natives/stm/appsystem/gimmick/prefab/gm80_154.pfb.17,natives/stm/environment/props/sm8x/sm80/sm80_154/sm80_154_00.mesh.231011879
-31,Gm80_103,,gm80_103,app.gm50_000,natives/stm/appsystem/gimmick/prefab/gm80_103.pfb.17,natives/stm/environment/props/sm8x/sm80/sm80_103/sm80_103_00.mesh.231011879
+31,Gm80_103,sandbag,gm80_103,app.gm50_000,natives/stm/appsystem/gimmick/prefab/gm80_103.pfb.17,natives/stm/environment/props/sm8x/sm80/sm80_103/sm80_103_00.mesh.231011879
 32,Gm05_057,,gm05_057,app.gm80_000,natives/stm/appsystem/gimmick/prefab/bartest/gm05_057.pfb.17,natives/stm/environment/props/sm8x/sm80/sm80_250/sm80_250_00.mesh.231011879
 33,Gm05_058,,gm05_058,app.gm80_000,natives/stm/appsystem/gimmick/prefab/bartest/gm05_058.pfb.17,natives/stm/environment/props/sm5x/sm52/sm52_026/sm52_026_10.mesh.231011879
 34,Gm05_045,,gm05_045,app.gm05_045,natives/stm/appsystem/gimmick/prefab/chair/gm05_045.pfb.17,natives/stm/environment/props/sm5x/sm50/sm50_108/sm50_108_00.mesh.231011879
@@ -47,9 +47,9 @@
 46,Gm05_050,,gm05_050,app.gm05_050,natives/stm/appsystem/gimmick/prefab/bartest/gm05_050.pfb.17,natives/stm/environment/props/sm5x/sm50/sm50_005/sm50_005_00.mesh.231011879
 47,Gm05_051,,gm05_051,app.gm05_050,natives/stm/appsystem/gimmick/prefab/bartest/gm05_051.pfb.17,natives/stm/environment/props/sm8x/sm80/sm80_246/sm80_246_00.mesh.231011879
 48,Gm80_000,,gm80_000,app.gm80_000,natives/stm/appsystem/gimmick/prefab/gm80_000.pfb.17,natives/stm/environment/props/sm8x/sm80/sm80_000/sm80_000_00.mesh.231011879
-49,Gm51_009,,gm51_009,app.gm80_000,natives/stm/appsystem/gimmick/prefab/gm51_009.pfb.17,natives/stm/environment/props/sm5x/sm51/sm51_009/sm51_009_00.mesh.231011879
-50,Gm51_010,,gm51_010,app.gm80_000,natives/stm/appsystem/gimmick/prefab/gm51_010.pfb.17,natives/stm/environment/props/sm5x/sm51/sm51_010/sm51_010_00.mesh.231011879
-51,Gm51_011,,gm51_011,app.gm80_000,natives/stm/appsystem/gimmick/prefab/gm51_011.pfb.17,natives/stm/environment/props/sm5x/sm51/sm51_011/sm51_011_00.mesh.231011879
+49,Gm51_009,wood rack,gm51_009,app.gm80_000,natives/stm/appsystem/gimmick/prefab/gm51_009.pfb.17,natives/stm/environment/props/sm5x/sm51/sm51_009/sm51_009_00.mesh.231011879
+50,Gm51_010,wood rack,gm51_010,app.gm80_000,natives/stm/appsystem/gimmick/prefab/gm51_010.pfb.17,natives/stm/environment/props/sm5x/sm51/sm51_010/sm51_010_00.mesh.231011879
+51,Gm51_011,wood stick,gm51_011,app.gm80_000,natives/stm/appsystem/gimmick/prefab/gm51_011.pfb.17,natives/stm/environment/props/sm5x/sm51/sm51_011/sm51_011_00.mesh.231011879
 52,Gm52_002,,gm52_002,app.gm80_000,natives/stm/appsystem/gimmick/prefab/gm52_002.pfb.17,natives/stm/environment/props/sm5x/sm52/sm52_002/sm52_002_00.mesh.231011879
 53,Gm80_090,,gm80_090,app.gm80_000,natives/stm/appsystem/gimmick/prefab/gm80_090.pfb.17,natives/stm/environment/props/sm8x/sm80/sm80_090/sm80_090_00.mesh.231011879
 54,Gm80_098,,gm80_098,app.gm80_098,natives/stm/appsystem/gimmick/prefab/breakable/gm80_098.pfb.17,natives/stm/environment/props/sm8x/sm80/sm80_098/sm80_098_00.mesh.231011879
@@ -123,23 +123,23 @@
 130,Gm81_011,,gm81_011,app.GimmickBase,natives/stm/appsystem/gimmick/prefab/environment/gm81_011.pfb.17,natives/stm/environment/props/sm8x/sm81/sm81_011/sm81_011_00.mesh.231011879
 135,Gm82_009,,gm82_009,app.Gm82_009,natives/stm/appsystem/gimmick/prefab/gather/gm82_009.pfb.17,natives/stm/environment/props/sm8x/sm82/sm82_009/sm82_009_00.mesh.231011879
 136,Gm82_009_01,gatherable plant,gm82_009_01,app.Gm82_009,natives/stm/appsystem/gimmick/prefab/gather/gm82_009_01.pfb.17,natives/stm/environment/props/sm8x/sm82/sm82_009/sm82_009_00.mesh.231011879
-137,Gm82_009_02,,gm82_009_02,app.Gm82_009,natives/stm/appsystem/gimmick/prefab/gather/gm82_009_02.pfb.17,natives/stm/environment/props/sm8x/sm82/sm82_009/sm82_009_00.mesh.231011879
-138,Gm82_009_03,,gm82_009_03,app.Gm82_009,natives/stm/appsystem/gimmick/prefab/gather/gm82_009_03.pfb.17,natives/stm/environment/props/sm8x/sm82/sm82_009/sm82_009_00.mesh.231011879
-139,Gm82_009_04,,gm82_009_04,app.Gm82_009,natives/stm/appsystem/gimmick/prefab/gather/gm82_009_04.pfb.17,natives/stm/environment/props/sm8x/sm82/sm82_009/sm82_009_00.mesh.231011879
-140,Gm82_009_05,,gm82_009_05,app.Gm82_009,natives/stm/appsystem/gimmick/prefab/gather/gm82_009_05.pfb.17,natives/stm/environment/props/sm8x/sm82/sm82_009/sm82_009_00.mesh.231011879
-141,Gm82_009_06,,gm82_009_06,app.Gm82_009,natives/stm/appsystem/gimmick/prefab/gather/gm82_009_06.pfb.17,natives/stm/environment/props/sm8x/sm82/sm82_009/sm82_009_00.mesh.231011879
+137,Gm82_009_02,gatherable plant,gm82_009_02,app.Gm82_009,natives/stm/appsystem/gimmick/prefab/gather/gm82_009_02.pfb.17,natives/stm/environment/props/sm8x/sm82/sm82_009/sm82_009_00.mesh.231011879
+138,Gm82_009_03,gatherable plant,gm82_009_03,app.Gm82_009,natives/stm/appsystem/gimmick/prefab/gather/gm82_009_03.pfb.17,natives/stm/environment/props/sm8x/sm82/sm82_009/sm82_009_00.mesh.231011879
+139,Gm82_009_04,gatherable plant,gm82_009_04,app.Gm82_009,natives/stm/appsystem/gimmick/prefab/gather/gm82_009_04.pfb.17,natives/stm/environment/props/sm8x/sm82/sm82_009/sm82_009_00.mesh.231011879
+140,Gm82_009_05,gatherable plant,gm82_009_05,app.Gm82_009,natives/stm/appsystem/gimmick/prefab/gather/gm82_009_05.pfb.17,natives/stm/environment/props/sm8x/sm82/sm82_009/sm82_009_00.mesh.231011879
+141,Gm82_009_06,gatherable plant,gm82_009_06,app.Gm82_009,natives/stm/appsystem/gimmick/prefab/gather/gm82_009_06.pfb.17,natives/stm/environment/props/sm8x/sm82/sm82_009/sm82_009_00.mesh.231011879
 142,Gm82_010,,gm82_010,app.Gm82_009,natives/stm/appsystem/gimmick/prefab/gather/gm82_010.pfb.17,natives/stm/environment/props/sm8x/sm82/sm82_010/sm82_010_00.mesh.231011879
 143,Gm82_030,,gm82_030,app.Gm82_009,natives/stm/appsystem/gimmick/prefab/gather/gm82_030.pfb.17,natives/stm/environment/props/sm8x/sm82/sm82_030/sm82_030_00.mesh.231011879
 144,Gm82_018,,gm82_018,app.Gm82_009,natives/stm/appsystem/gimmick/prefab/gather/gm82_018.pfb.17,natives/stm/environment/props/sm8x/sm82/sm82_018/sm82_018_00.mesh.231011879
 145,Gm82_011,gatherable bush,gm82_011,app.Gm82_009,natives/stm/appsystem/gimmick/prefab/gather/gm82_011.pfb.17,natives/stm/environment/props/sm8x/sm82/sm82_011/sm82_011_00.mesh.231011879
 146,Gm82_012,gatherable bush,gm82_012,app.Gm82_009,natives/stm/appsystem/gimmick/prefab/gather/gm82_012.pfb.17,natives/stm/environment/props/sm8x/sm82/sm82_012/sm82_012_00.mesh.231011879
-147,Gm82_013,,gm82_013,app.Gm82_009,natives/stm/appsystem/gimmick/prefab/gather/gm82_013.pfb.17,natives/stm/environment/props/sm8x/sm82/sm82_013/sm82_013_00.mesh.231011879
+147,Gm82_013,gatherable plant(apple),gm82_013,app.Gm82_009,natives/stm/appsystem/gimmick/prefab/gather/gm82_013.pfb.17,natives/stm/environment/props/sm8x/sm82/sm82_013/sm82_013_00.mesh.231011879
 148,Gm82_014,,gm82_014,app.Gm82_009,natives/stm/appsystem/gimmick/prefab/gather/gm82_014.pfb.17,natives/stm/environment/props/sm8x/sm82/sm82_014/sm82_014_00.mesh.231011879
 149,Gm82_014_01,,gm82_014_01,app.Gm82_009,natives/stm/appsystem/gimmick/prefab/gather/gm82_014_01.pfb.17,natives/stm/environment/props/sm8x/sm82/sm82_014/sm82_014_00.mesh.231011879
 150,Gm82_015,,gm82_015,app.Gm82_009,natives/stm/appsystem/gimmick/prefab/gather/gm82_015.pfb.17,natives/stm/environment/props/sm8x/sm82/sm82_015/sm82_015_00.mesh.231011879
 151,Gm82_016,,gm82_016,app.Gm82_009,natives/stm/appsystem/gimmick/prefab/gather/gm82_016.pfb.17,natives/stm/environment/props/sm8x/sm82/sm82_016/sm82_016_00.mesh.231011879
 152,Gm82_017,,gm82_017,app.Gm82_009,natives/stm/appsystem/gimmick/prefab/gather/gm82_017.pfb.17,natives/stm/environment/props/sm8x/sm82/sm82_017/sm82_017_00.mesh.231011879
-153,Gm82_020,,gm82_020,app.Gm82_009,natives/stm/appsystem/gimmick/prefab/gather/gm82_020.pfb.17,natives/stm/environment/props/sm8x/sm82/sm82_020/sm82_020_00.mesh.231011879
+153,Gm82_020,gatherable plant(harspud),gm82_020,app.Gm82_009,natives/stm/appsystem/gimmick/prefab/gather/gm82_020.pfb.17,natives/stm/environment/props/sm8x/sm82/sm82_020/sm82_020_00.mesh.231011879
 154,Gm82_021,,gm82_021,app.Gm82_009,natives/stm/appsystem/gimmick/prefab/gather/gm82_021.pfb.17,natives/stm/environment/props/sm8x/sm82/sm82_021/sm82_021_00.mesh.231011879
 155,Gm82_022,,gm82_022,app.Gm82_009,natives/stm/appsystem/gimmick/prefab/gather/gm82_022.pfb.17,natives/stm/environment/props/sm8x/sm82/sm82_022/sm82_022_00.mesh.231011879
 156,Gm82_023,,gm82_023,app.Gm82_009,natives/stm/appsystem/gimmick/prefab/gather/gm82_023.pfb.17,natives/stm/environment/props/sm8x/sm82/sm82_023/sm82_023_00.mesh.231011879
@@ -151,7 +151,7 @@
 162,Gm82_062,,gm82_062,app.Gm82_009,natives/stm/appsystem/gimmick/prefab/gather/gm82_062.pfb.17,natives/stm/environment/props/sm1x/sm10/sm10_085/sm10_085_00.mesh.231011879
 163,Gm82_000,lootable gold,gm82_000,app.Gm82_000,natives/stm/appsystem/gimmick/prefab/gm82_000.pfb.17,natives/stm/environment/props/sm8x/sm82/sm82_000/sm82_000_00.mesh.231011879
 164,Gm82_000_01,lootable item,gm82_000_01,app.Gm82_000_01,natives/stm/appsystem/gimmick/gm82_000_01/gm82_000_01.pfb.17,natives/stm/environment/props/sm8x/sm82/sm82_000/sm82_000_00.mesh.231011879
-165,Gm82_000_02,,gm82_000_02,app.Gm82_000_01,natives/stm/appsystem/gimmick/gm82_000_01/gm82_000_02.pfb.17,natives/stm/environment/props/sm8x/sm82/sm82_000/sm82_000_00.mesh.231011879
+165,Gm82_000_02,discarded item,gm82_000_02,app.Gm82_000_01,natives/stm/appsystem/gimmick/gm82_000_01/gm82_000_02.pfb.17,natives/stm/environment/props/sm8x/sm82/sm82_000/sm82_000_00.mesh.231011879
 166,Gm02_003,,gm02_003,app.Gm02_003,natives/stm/appsystem/gimmick/prefab/gm02_003.pfb.17,natives/stm/character/it/it02/003/it02_003.mesh.231011879
 167,Gm82_036,Seeker's Token / Finder's Token,gm82_036,app.Gm82_036,natives/stm/appsystem/gimmick/prefab/gm82_036.pfb.17,natives/stm/environment/props/sm8x/sm82/sm82_036/sm82_036_00.mesh.231011879
 168,Gm50_005,,gm50_005,app.Gm50_005,natives/stm/appsystem/gimmick/prefab/interact/gm50_005.pfb.17,
@@ -200,7 +200,7 @@
 245,Gm80_148,,gm80_148,app.Gm80_105,natives/stm/appsystem/gimmick/prefab/gm80_148.pfb.17,natives/stm/environment/props/sm8x/sm80/sm80_148/sm80_148_00.mesh.231011879
 247,Gm80_102,,gm80_102,app.Gm80_102,natives/stm/appsystem/gimmick/prefab/gm80_102.pfb.17,natives/stm/environment/props/sm8x/sm80/sm80_102/sm80_102_00.mesh.231011879
 248,Gm80_109,tree,gm80_109,app.Gm80_109,natives/stm/appsystem/gimmick/prefab/gm80_109.pfb.17,natives/stm/environment/props/sm8x/sm80/sm80_109/sm80_109_00.mesh.231011879
-249,Gm80_110,,gm80_110,app.Gm80_110,natives/stm/appsystem/gimmick/prefab/gm80_110.pfb.17,natives/stm/environment/props/sm8x/sm80/sm80_110/sm80_110_00.mesh.231011879
+249,Gm80_110,tree,gm80_110,app.Gm80_110,natives/stm/appsystem/gimmick/prefab/gm80_110.pfb.17,natives/stm/environment/props/sm8x/sm80/sm80_110/sm80_110_00.mesh.231011879
 250,Gm81_059,,gm81_059,app.Gm81_059,natives/stm/appsystem/gimmick/prefab/environment/gm81_059.pfb.17,natives/stm/environment/props/sm8x/sm81/sm81_059/sm81_059_00.mesh.231011879
 251,Gm81_064,,gm81_064,app.Gm81_059,natives/stm/appsystem/gimmick/prefab/environment/gm81_064.pfb.17,natives/stm/environment/props/sm8x/sm81/sm81_064/sm81_064_00.mesh.231011879
 252,Gm80_164,,gm80_164,app.GmAIInteract_01,natives/stm/appsystem/gimmick/prefab/invisibleinteract/gm80_164.pfb.17,
@@ -280,7 +280,7 @@
 334,Gm50_259_01,,gm50_259_01,app.Gm50_259_01,natives/stm/appsystem/gimmick/prefab/interact/gm50_259_01.pfb.17,natives/stm/environment/props/sm5x/sm50/sm50_259/sm50_259_01.mesh.231011879
 335,Gm51_133,,gm51_133,app.Gm51_133,natives/stm/appsystem/gimmick/prefab/interact/gm51_133.pfb.17,natives/stm/environment/props/sm5x/sm51/sm51_133/sm51_133_00.mesh.231011879
 336,Gm81_031,,gm81_031,app.Gm81_031,natives/stm/appsystem/gimmick/prefab/interact/gm81_031.pfb.17,natives/stm/environment/props/sm8x/sm81/sm81_031/sm81_031_00.mesh.231011879
-337,Gm50_011_01,,gm50_011_01,app.Gm50_011_01,natives/stm/appsystem/gimmick/prefab/interact/gm50_011_01.pfb.17,natives/stm/environment/props/sm5x/sm50/sm50_011/sm50_011_01.mesh.231011879
+337,Gm50_011_01,pile of wood,gm50_011_01,app.Gm50_011_01,natives/stm/appsystem/gimmick/prefab/interact/gm50_011_01.pfb.17,natives/stm/environment/props/sm5x/sm50/sm50_011/sm50_011_01.mesh.231011879
 338,Gm51_041_00,,gm51_041_00,app.Gm51_041_00,natives/stm/appsystem/gimmick/prefab/interact/gm51_041_00.pfb.17,natives/stm/environment/props/sm5x/sm51/sm51_041/sm51_041_00.mesh.231011879
 339,Gm51_066_Indoor,,gm51_066_Indoor,app.Gm51_144,natives/stm/appsystem/gimmick/prefab/breakable/gm51_066_indoor.pfb.17,natives/stm/environment/props/sm5x/sm51/sm51_066/sm51_066_00.mesh.231011879
 340,Gm51_377_Indoor,,gm51_377_indoor,app.Gm51_144,natives/stm/appsystem/gimmick/prefab/breakable/gm51_377_indoor.pfb.17,natives/stm/environment/props/sm5x/sm51/sm51_377/sm51_377_00.mesh.231011879
@@ -308,7 +308,7 @@
 363,Gm50_018_01,,gm50_018_01,app.GmInteractBase,natives/stm/appsystem/gimmick/prefab/interact/gm50_018_01.pfb.17,natives/stm/environment/props/sm5x/sm50/sm50_018/sm50_018_01.mesh.231011879
 364,Gm50_132_01,,gm50_132_01,app.Gm50_132_01,natives/stm/appsystem/gimmick/prefab/interact/gm50_132_01.pfb.17,natives/stm/environment/props/sm5x/sm50/sm50_132/sm50_132_01.mesh.231011879
 365,Gm50_096,,gm50_096,app.gm50_096,natives/stm/appsystem/gimmick/prefab/interact/gm50_096.pfb.17,natives/stm/environment/props/sm5x/sm50/sm50_096/sm50_096_00.mesh.231011879
-366,Gm50_097,,gm50_097,app.gm50_097,natives/stm/appsystem/gimmick/prefab/interact/gm50_097.pfb.17,natives/stm/environment/props/sm5x/sm50/sm50_097/sm50_097_00.mesh.231011879
+366,Gm50_097,haystack,gm50_097,app.gm50_097,natives/stm/appsystem/gimmick/prefab/interact/gm50_097.pfb.17,natives/stm/environment/props/sm5x/sm50/sm50_097/sm50_097_00.mesh.231011879
 367,Gm54_011,,gm54_011,app.GmReplaceObjectBase,natives/stm/appsystem/gimmick/prefab/gm54_011.pfb.17,
 368,Gm51_136,,gm51_136,app.Gm51_136,natives/stm/appsystem/gimmick/prefab/breakable/gm51_136.pfb.17,natives/stm/environment/props/sm5x/sm51/sm51_136/sm51_136_00.mesh.231011879
 369,Gm51_164,,gm51_164,app.Gm51_164,natives/stm/appsystem/gimmick/prefab/breakable/gm51_164.pfb.17,natives/stm/environment/props/sm5x/sm51/sm51_164/sm51_164_00.mesh.231011879
@@ -392,7 +392,7 @@
 447,Gm51_571,,gm51_571,app.Gm51_571,natives/stm/appsystem/gimmick/prefab/gm51_571.pfb.17,natives/stm/environment/props/sm5x/sm51/sm51_571/sm51_571_00.mesh.231011879
 448,Gm51_572,,gm51_572,app.Gm51_571,natives/stm/appsystem/gimmick/prefab/gm51_572.pfb.17,natives/stm/environment/props/sm5x/sm51/sm51_572/sm51_572_00.mesh.231011879
 449,Gm52_120,,gm52_120,app.gm80_000,natives/stm/appsystem/gimmick/prefab/gm52_120.pfb.17,natives/stm/environment/props/sm5x/sm52/sm52_120/sm52_120_00.mesh.231011879
-450,Gm51_574,,gm51_574,app.gm80_000,natives/stm/appsystem/gimmick/prefab/gm51_574.pfb.17,natives/stm/environment/props/sm5x/sm51/sm51_574/sm51_574_00.mesh.231011879
+450,Gm51_574,wood box,gm51_574,app.gm80_000,natives/stm/appsystem/gimmick/prefab/gm51_574.pfb.17,natives/stm/environment/props/sm5x/sm51/sm51_574/sm51_574_00.mesh.231011879
 451,Gm51_612,,gm51_612,app.GimmickSimpleBase,natives/stm/appsystem/gimmick/prefab/sign/gm51_612.pfb.17,natives/stm/environment/props/sm5x/sm51/sm51_612/sm51_612_00.mesh.231011879
 452,Gm51_616,,gm51_616,app.GimmickSimpleBase,natives/stm/appsystem/gimmick/prefab/sign/gm51_616.pfb.17,natives/stm/environment/props/sm5x/sm51/sm51_616/sm51_616_00.mesh.231011879
 453,Gm52_144,,gm52_144,app.GimmickSimpleBase,natives/stm/appsystem/gimmick/prefab/sign/gm52_144.pfb.17,natives/stm/environment/props/sm5x/sm52/sm52_144/sm52_144_00.mesh.231011879
@@ -547,7 +547,7 @@
 605,Gm80_238,,gm80_238,app.gm05_049,natives/stm/appsystem/gimmick/prefab/breakable/gm80_238.pfb.17,natives/stm/environment/props/sm8x/sm80/sm80_238/sm80_238_00.mesh.231011879
 606,Gm80_239,,gm80_239,app.gm05_049,natives/stm/appsystem/gimmick/prefab/breakable/gm80_239.pfb.17,natives/stm/environment/props/sm8x/sm80/sm80_239/sm80_239_00.mesh.231011879
 607,Gm80_240,,gm80_240,app.gm05_049,natives/stm/appsystem/gimmick/prefab/breakable/gm80_240.pfb.17,natives/stm/environment/props/sm8x/sm80/sm80_240/sm80_240_00.mesh.231011879
-608,Gm80_241,,gm80_241,app.gm05_049,natives/stm/appsystem/gimmick/prefab/breakable/gm80_241.pfb.17,natives/stm/environment/props/sm8x/sm80/sm80_241/sm80_241_00.mesh.231011879
+608,Gm80_241,"candle,cup",gm80_241,app.gm05_049,natives/stm/appsystem/gimmick/prefab/breakable/gm80_241.pfb.17,natives/stm/environment/props/sm8x/sm80/sm80_241/sm80_241_00.mesh.231011879
 609,Gm81_159,,gm81_159,app.Gm81_159,natives/stm/appsystem/gimmick/prefab/gm81_159.pfb.17,
 610,Gm51_156,,gm51_156,app.Gm51_058,natives/stm/appsystem/gimmick/prefab/chair/gm51_156.pfb.17,natives/stm/environment/props/sm5x/sm51/sm51_156/sm51_156_00.mesh.231011879
 611,Gm51_653,,gm51_653,app.Gm51_653,natives/stm/appsystem/gimmick/prefab/interact/gm51_653.pfb.17,natives/stm/environment/props/sm5x/sm51/sm51_653/sm51_653_00.mesh.231011879
@@ -600,7 +600,7 @@
 658,Gm50_000_13,,gm50_000_13,app.gm50_000,natives/stm/appsystem/gimmick/prefab/gm50_000_13.pfb.17,natives/stm/environment/props/sm5x/sm50/sm50_000/sm50_000_00.mesh.231011879
 659,Gm50_000_14,,gm50_000_14,app.gm50_000,natives/stm/appsystem/gimmick/prefab/gm50_000_14.pfb.17,natives/stm/environment/props/sm5x/sm50/sm50_000/sm50_000_00.mesh.231011879
 660,Gm50_000_99,,gm50_000_99,app.gm50_000,natives/stm/appsystem/gimmick/prefab/gm50_000_99.pfb.17,natives/stm/environment/props/sm5x/sm50/sm50_000/sm50_000_00.mesh.231011879
-661,Gm50_040_10,,gm50_040_10,app.gm50_000,natives/stm/appsystem/gimmick/prefab/bartest/gm50_040_10.pfb.17,natives/stm/environment/props/sm5x/sm50/sm50_077/sm50_077_10.mesh.231011879
+661,Gm50_040_10,bucket,gm50_040_10,app.gm50_000,natives/stm/appsystem/gimmick/prefab/bartest/gm50_040_10.pfb.17,natives/stm/environment/props/sm5x/sm50/sm50_077/sm50_077_10.mesh.231011879
 662,Gm50_040_11,,gm50_040_11,app.gm50_000,natives/stm/appsystem/gimmick/prefab/bartest/gm50_040_11.pfb.17,natives/stm/environment/props/sm5x/sm50/sm50_077/sm50_077_10.mesh.231011879
 663,Gm50_040_12,,gm50_040_12,app.gm50_000,natives/stm/appsystem/gimmick/prefab/bartest/gm50_040_12.pfb.17,natives/stm/environment/props/sm5x/sm50/sm50_077/sm50_077_10.mesh.231011879
 664,Gm50_040_13,,gm50_040_13,app.gm50_000,natives/stm/appsystem/gimmick/prefab/bartest/gm50_040_13.pfb.17,natives/stm/environment/props/sm5x/sm50/sm50_077/sm50_077_10.mesh.231011879
@@ -619,9 +619,9 @@
 677,Gm51_570_14,,gm51_570_14,app.Gm51_570,natives/stm/appsystem/gimmick/prefab/gm51_570_14.pfb.17,natives/stm/environment/props/sm5x/sm51/sm51_570/sm51_570_00.mesh.231011879
 678,Gm51_570_99,,gm51_570_99,app.Gm51_570,natives/stm/appsystem/gimmick/prefab/gm51_570_99.pfb.17,natives/stm/environment/props/sm5x/sm51/sm51_570/sm51_570_00.mesh.231011879
 679,Gm80_243,,gm80_243,app.gm80_000,natives/stm/appsystem/gimmick/prefab/breakable/gm80_243.pfb.17,natives/stm/environment/props/sm8x/sm80/sm80_243/sm80_243_00.mesh.231011879
-680,Gm82_009_10,,gm82_009_10,app.Gm82_009,natives/stm/appsystem/gimmick/prefab/gather/gm82_009_10.pfb.17,natives/stm/environment/props/sm8x/sm82/sm82_009/sm82_009_00.mesh.231011879
-681,Gm82_009_20,,gm82_009_20,app.Gm82_009,natives/stm/appsystem/gimmick/prefab/gather/gm82_009_20.pfb.17,natives/stm/environment/props/sm8x/sm82/sm82_009/sm82_009_00.mesh.231011879
-682,Gm82_016_10,,gm82_016_10,app.Gm82_009,natives/stm/appsystem/gimmick/prefab/gather/gm82_016_10.pfb.17,natives/stm/environment/props/sm8x/sm82/sm82_016/sm82_016_00.mesh.231011879
+680,Gm82_009_10,gatherable plant,gm82_009_10,app.Gm82_009,natives/stm/appsystem/gimmick/prefab/gather/gm82_009_10.pfb.17,natives/stm/environment/props/sm8x/sm82/sm82_009/sm82_009_00.mesh.231011879
+681,Gm82_009_20,gatherable plant,gm82_009_20,app.Gm82_009,natives/stm/appsystem/gimmick/prefab/gather/gm82_009_20.pfb.17,natives/stm/environment/props/sm8x/sm82/sm82_009/sm82_009_00.mesh.231011879
+682,Gm82_016_10,gatherable bones,gm82_016_10,app.Gm82_009,natives/stm/appsystem/gimmick/prefab/gather/gm82_016_10.pfb.17,natives/stm/environment/props/sm8x/sm82/sm82_016/sm82_016_00.mesh.231011879
 683,Gm82_016_11,,gm82_016_11,app.Gm82_009,natives/stm/appsystem/gimmick/prefab/gather/gm82_016_11.pfb.17,natives/stm/environment/props/sm8x/sm82/sm82_016/sm82_016_00.mesh.231011879
 684,Gm82_016_12,,gm82_016_12,app.Gm82_009,natives/stm/appsystem/gimmick/prefab/gather/gm82_016_12.pfb.17,natives/stm/environment/props/sm8x/sm82/sm82_016/sm82_016_00.mesh.231011879
 685,Gm82_016_13,,gm82_016_13,app.Gm82_009,natives/stm/appsystem/gimmick/prefab/gather/gm82_016_13.pfb.17,natives/stm/environment/props/sm8x/sm82/sm82_016/sm82_016_00.mesh.231011879
@@ -665,8 +665,8 @@
 723,Gm81_101_02,,gm81_101_02,app.gm81_101,natives/stm/appsystem/gimmick/prefab/gm81_101_02.pfb.17,
 724,Gm81_101_03,,gm81_101_03,app.gm81_101,natives/stm/appsystem/gimmick/prefab/gm81_101_03.pfb.17,
 725,Gm50_007_01,,gm50_007_01,app.gm50_007_01,natives/stm/appsystem/gimmick/prefab/interact/gm50_007_01.pfb.17,
-726,Gm50_013_01,,gm50_013_01,app.gm50_013_01,natives/stm/appsystem/gimmick/prefab/interact/gm50_013_01.pfb.17,
-727,Gm50_013_02,,gm50_013_02,app.gm50_013_02,natives/stm/appsystem/gimmick/prefab/interact/gm50_013_02.pfb.17,
+726,Gm50_013_01,bucket,gm50_013_01,app.gm50_013_01,natives/stm/appsystem/gimmick/prefab/interact/gm50_013_01.pfb.17,
+727,Gm50_013_02,bukcet,gm50_013_02,app.gm50_013_02,natives/stm/appsystem/gimmick/prefab/interact/gm50_013_02.pfb.17,
 728,Gm51_188_01,,gm51_188_01,app.Gm51_188_00,natives/stm/appsystem/gimmick/prefab/interact/gm51_188_01.pfb.17,natives/stm/environment/props/sm5x/sm51/sm51_041/sm51_041_00.mesh.231011879
 729,Gm51_159,,gm51_159,app.Gm51_341,natives/stm/appsystem/gimmick/prefab/counter/gm51_159.pfb.17,natives/stm/environment/props/sm5x/sm51/sm51_159/sm51_159_00.mesh.231011879
 730,Gm51_282,,gm51_282,app.Gm51_341,natives/stm/appsystem/gimmick/prefab/counter/gm51_282.pfb.17,natives/stm/environment/props/sm5x/sm51/sm51_282/sm51_282_00.mesh.231011879
