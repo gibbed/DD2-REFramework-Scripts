@@ -434,7 +434,7 @@
 492,Gm80_136_02,,gm80_136_02,app.Gm80_129,natives/stm/appsystem/gimmick/prefab/lives/gm80_136_02.pfb.17,
 493,Gm80_136_03,,gm80_136_03,app.Gm80_129,natives/stm/appsystem/gimmick/prefab/lives/gm80_136_03.pfb.17,
 494,Gm80_136_04,,gm80_136_04,app.Gm80_129,natives/stm/appsystem/gimmick/prefab/lives/gm80_136_04.pfb.17,
-495,Gm80_211,"chest (large, ancient)",gm80_211,app.gm80_001,natives/stm/appsystem/gimmick/prefab/gm80_211.pfb.17,natives/stm/environment/props/sm8x/sm80/sm80_211/sm80_211_00.mesh.231011879
+495,Gm80_211,chest (ancient large),gm80_211,app.gm80_001,natives/stm/appsystem/gimmick/prefab/gm80_211.pfb.17,natives/stm/environment/props/sm8x/sm80/sm80_211/sm80_211_00.mesh.231011879
 496,Gm80_186_01,,Gm80_186_01,app.Gm80_186_01,natives/stm/appsystem/gimmick/prefab/gm80_186_01.pfb.17,
 497,Gm51_505,,gm51_505,app.gm81_128,natives/stm/appsystem/gimmick/prefab/gm51_505.pfb.17,natives/stm/environment/props/sm5x/sm51/sm51_505/sm51_505_00.mesh.231011879
 498,Gm51_688,,gm51_688,app.gm81_128,natives/stm/appsystem/gimmick/prefab/gm51_688.pfb.17,natives/stm/environment/props/sm5x/sm51/sm51_688/sm51_688_00.mesh.231011879
@@ -631,8 +631,8 @@
 689,Gm82_017_12,,gm82_017_12,app.Gm82_009,natives/stm/appsystem/gimmick/prefab/gather/gm82_017_12.pfb.17,natives/stm/environment/props/sm8x/sm82/sm82_017/sm82_017_00.mesh.231011879
 690,Gm82_017_13,,gm82_017_13,app.Gm82_009,natives/stm/appsystem/gimmick/prefab/gather/gm82_017_13.pfb.17,natives/stm/environment/props/sm8x/sm82/sm82_017/sm82_017_00.mesh.231011879
 691,Gm82_017_14,,gm82_017_14,app.Gm82_009,natives/stm/appsystem/gimmick/prefab/gather/gm82_017_14.pfb.17,natives/stm/environment/props/sm8x/sm82/sm82_017/sm82_017_00.mesh.231011879
-692,Gm80_001_10,,gm80_001_10,app.gm80_001,natives/stm/appsystem/gimmick/prefab/gm80_001_10.pfb.17,natives/stm/environment/props/sm8x/sm80/sm80_001/sm80_001_00.mesh.231011879
-693,Gm80_096_10,,gm80_096_10,app.gm80_001,natives/stm/appsystem/gimmick/prefab/gm80_096_10.pfb.17,natives/stm/environment/props/sm8x/sm80/sm80_096/sm80_096_00.mesh.231011879
+692,Gm80_001_10,chest (small),gm80_001_10,app.gm80_001,natives/stm/appsystem/gimmick/prefab/gm80_001_10.pfb.17,natives/stm/environment/props/sm8x/sm80/sm80_001/sm80_001_00.mesh.231011879
+693,Gm80_096_10,chest (medium),gm80_096_10,app.gm80_001,natives/stm/appsystem/gimmick/prefab/gm80_096_10.pfb.17,natives/stm/environment/props/sm8x/sm80/sm80_096/sm80_096_00.mesh.231011879
 694,Gm80_097_10,chest (large),gm80_097_10,app.gm80_097,natives/stm/appsystem/gimmick/prefab/gm80_097_10.pfb.17,natives/stm/environment/props/sm8x/sm80/sm80_097/sm80_097_00.mesh.231011879
 695,Gm80_003_00,,gm80_003_00,app.Gm80_003,natives/stm/appsystem/gimmick/prefab/gm80_003_00.pfb.17,
 696,Gm80_037_00,,gm80_037_00,app.Gm80_003,natives/stm/appsystem/gimmick/prefab/gm80_037_00.pfb.17,
