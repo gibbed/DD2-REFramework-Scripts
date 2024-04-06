@@ -80,13 +80,15 @@ end
 local seeker_token_get_state_callbacks =
 {
   -- proof
+  --[[
   function(args)
     -- If the proof matches the collectible's unique id, then it's been picked up
-    if proof_key ~= nil and args.all.proof_key == args.collectible_key then
+    if args.all.proof_key ~= nil and args.all.proof_key == args.collectible_key then
       return true
     end
     return nil
   end,
+  ]]--
   -- never generate
   function(args)
     -- If the collectible has been flagged to never generate then it's been picked up
@@ -108,7 +110,7 @@ local seeker_token_get_state_callbacks =
     return nil
   end,
   -- offline
-  check_offline = function(args)
+  function(args)
     local context = get_context(args, gimmick_context_rt)
     if context ~= nil then
       return context:isOnFreeBit(16)
