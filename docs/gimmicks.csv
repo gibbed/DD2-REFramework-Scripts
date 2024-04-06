@@ -405,7 +405,7 @@
 460,Gm81_127,,gm81_127,app.gm05_046,natives/stm/appsystem/gimmick/prefab/door/gm81_127.pfb.17,natives/stm/environment/props/sm8x/sm81/sm81_127/sm81_127_00.mesh.231011879
 461,Gm82_062_01,,gm82_062_01,app.Gm82_009,natives/stm/appsystem/gimmick/prefab/gather/gm82_062_01.pfb.17,natives/stm/environment/props/sm1x/sm10/sm10_085/sm10_085_00.mesh.231011879
 464,Gm81_140,,gm81_140,app.Gm80_076,natives/stm/appsystem/gimmick/prefab/gm81_140.pfb.17,natives/stm/environment/props/sm8x/sm81/sm81_140/sm81_140_00.mesh.231011879
-465,Gm80_096_01,chest (large),gm80_096_01,app.gm80_097,natives/stm/appsystem/gimmick/prefab/gm80_096_01.pfb.17,natives/stm/environment/props/sm8x/sm80/sm80_097/sm80_097_00.mesh.231011879
+465,Gm80_096_01,"chest (large, Sphinx seal)",gm80_096_01,app.gm80_097,natives/stm/appsystem/gimmick/prefab/gm80_096_01.pfb.17,natives/stm/environment/props/sm8x/sm80/sm80_097/sm80_097_00.mesh.231011879
 466,Gm80_123_02,,gm80_123_02,app.gm05_046,natives/stm/appsystem/gimmick/prefab/door/gm80_123_02.pfb.17,
 467,Gm80_131_01,,gm80_131_01,app.Gm80_129,natives/stm/appsystem/gimmick/prefab/lives/gm80_131_01.pfb.17,
 468,Gm80_048_02,,gm80_048_02,app.Gm80_048,natives/stm/appsystem/gimmick/prefab/gm80_048_02.pfb.17,natives/stm/environment/props/sm8x/sm80/sm80_048/sm80_048_00.mesh.231011879
