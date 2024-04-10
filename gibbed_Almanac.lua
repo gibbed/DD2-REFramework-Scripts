@@ -240,6 +240,7 @@ local marker_types =
   ["Chests (XL)"] =
   {
     label = "Chests (XL)",
+    tooltip = "Most of these are only available in post-game.",
     data = json.load_file("gibbed_Almanac/495.json"),
     gimmick_id = 495,
     get_state_callbacks = chest_get_state_callbacks,
@@ -531,6 +532,11 @@ re.on_draw_ui(function()
         imgui.pop_style_color()
       else
         tree_node = imgui.tree_node(marker_type.label)
+      end
+      if marker_type.tooltip ~= nil and imgui.is_item_hovered() then
+        imgui.begin_tooltip()
+        imgui.set_tooltip(marker_type.tooltip)
+        imgui.end_tooltip()
       end
       if tree_node then
         if imgui.tree_node("Unacquired Settings") then
