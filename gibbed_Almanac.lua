@@ -31,6 +31,8 @@ local intptr_t_value_offset = intptr_t:get_field("_value"):get_offset_from_base(
 
 local unique_id_t = sdk.find_type_definition("app.UniqueID")
 
+local context_database_t = sdk.find_type_definition("app.ContextDatabase")
+
 local context_database_key_t = sdk.find_type_definition("app.ContextDatabaseKey")
 
 local gather_context_t = sdk.find_type_definition("app.GatherContext")
@@ -840,6 +842,21 @@ local add_markers = function(this)
   update_marker_count(icon_count, marker_count, icon_limit - marker_count - icon_count, icon_limit)
   return retval
 end
+
+-- hook clearAllContextsImpl to clear caches as needed
+-- clearAllContextsImpl is called by clearAllContexts and restoreFromSaveData
+sdk.hook(
+  context_database_t:get_method("clearAllContextsImpl"),
+  function(args)
+    log.debug("clearing caches")
+    cache_acquired = {}
+    cache_collectibles = nil
+    cache_markers = nil
+  end,
+  function(retval)
+    return retval
+  end
+)
 
 -- hook constructor so we can resize MapIcon array to be larger
 sdk.hook(
