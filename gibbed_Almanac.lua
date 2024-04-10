@@ -33,6 +33,9 @@ local unique_id_t = sdk.find_type_definition("app.UniqueID")
 
 local context_database_key_t = sdk.find_type_definition("app.ContextDatabaseKey")
 
+local gather_context_t = sdk.find_type_definition("app.GatherContext")
+local gather_context_rt = gather_context_t:get_runtime_type()
+
 local gimmick_context_t = sdk.find_type_definition("app.GimmickContext")
 local gimmick_context_rt = gimmick_context_t:get_runtime_type()
 
@@ -134,9 +137,9 @@ local golden_trove_beetle_get_state_callbacks =
   end,
   -- offline
   function(args)
-    local context = get_context(args, gimmick_context_rt)
+    local context = get_context(args, gather_context_rt)
     if context ~= nil then
-      return context:isOnFreeBit(0)
+      return context:get_Num() <= 0
     end
     return nil
   end,
