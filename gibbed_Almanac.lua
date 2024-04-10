@@ -854,7 +854,6 @@ end
 sdk.hook(
   context_database_t:get_method("clearAllContextsImpl"),
   function(args)
-    log.debug("clearing caches")
     cache_acquired = {}
     cache_collectibles = nil
     cache_markers = nil
