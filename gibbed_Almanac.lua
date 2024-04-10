@@ -240,7 +240,7 @@ local marker_types =
   ["Chests (XL)"] =
   {
     label = "Chests (XL)",
-    tooltip = "Most of these are only available in post-game.",
+    tooltip = "Also known as 'sunken chests'. Most of these are only available in post-game.",
     data = json.load_file("gibbed_Almanac/495.json"),
     gimmick_id = 495,
     get_state_callbacks = chest_get_state_callbacks,
